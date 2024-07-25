@@ -11,3 +11,100 @@ class demo
 }
 
 
+class demo
+{
+    void display()
+    {
+        System.out.println("hello");
+    }
+    public static void main(String args[])
+    {
+        demo d= new demo();
+        d.display();
+    }
+}
+
+with parameters:
+class demo
+{
+    void display(int a, int b)
+    {
+        int sum=0;
+        sum=sum+a+b;
+        System.out.println(sum);
+    }
+    public static void main(String args[])
+    {
+        demo d= new demo();
+        d.display(8,2);
+    }
+}
+
+
+constructor
+
+class bike
+{
+    bike()
+    {
+        System.out.println("bike is created");
+    }
+    public static void main(String args[])
+    {
+        bike b= new bike();
+    }
+}
+
+
+class display
+{
+    int id;
+    String name;
+    display(int i,String names)
+    {
+        id=i;
+        name=names;
+    }
+    void display1()
+    {
+        System.out.println("name ="+name);
+        System.out.print("id="+id);
+    
+    }
+    public static void main(String[]args)
+    {
+        display d=new display(422,"arun");
+        d.display1();
+    }
+}
+
+
+class students
+{
+    int id;
+    String name;
+    int age;
+    students (int i,String n)
+    { id =i;
+    name = n;
+    }
+    students(int i,String n,int a)
+    {
+        id=i;
+        name =n;
+        age=a;
+    }
+    void display()
+    {
+        System.out.println(id+""+name+""+age);
+    }
+    public static void main(String  args[])
+    {
+        students s1=new
+        students(111," karan ",24);
+        students s2=new
+        students(222," aryan ",25);
+        s1.display();
+        s2.display();
+    }
+}
