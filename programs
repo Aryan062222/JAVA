@@ -108,3 +108,136 @@ class students
         s2.display();
     }
 }
+
+
+STRING
+
+class demo
+{
+    public static void main(String args[])
+    {
+        String s=new String("java");
+        System.out.println(s);
+    }
+}
+
+
+LENGTH
+import java.lang.*;
+class demo
+{
+    public static void main(String args[])
+    {
+       int l;
+       String s=new String("java");
+       l=s.length();
+       System.out.println("length:"+l);
+    }
+}
+
+
+
+chatAt(index)
+
+import java.lang.*;
+class demo
+{
+    public static void main(String args[])
+    {
+       char c;
+       String s=new String("entertainment");
+       c=s.charAt(7);
+       System.out.println("character:"+c);
+    }
+}
+
+
+
+COMBINED STRING
+class demo
+{
+    public static void main(String args[])
+    {
+        String s1="aryan";
+        String s2="kumar";
+        System.out.println("combined string:"+s1.concat(s2));
+    }
+}
+
+
+EQUALS
+
+class demo
+{
+    public static void main(String args[])
+    {
+        String s1="aryan";
+        String s2="kumar";
+        System.out.println("combined string:"+s1.equals(s2));
+    }
+}
+
+
+COMPARE STRING
+
+class demo
+{
+    public static void main(String args[])
+    {
+        String s1="aryan";
+        String s2="ARYAN";
+        System.out.println("compare string:"+s1.equalsIgnoreCase(s2));
+    }
+}
+
+
+sub string()
+
+class demo
+{
+    public static void main(String args[])
+    {
+        String s="java is a programing language";
+        System.out.println(s.substring(6));
+    }
+}
+
+STRING BUFFER 
+
+class demo
+{
+    public static void main(String args[])
+    {
+        StringBuffer sb= new StringBuffer("java");
+        sb.append("software");
+        System.out.println(sb);
+    }
+}
+
+STRING BUFFER REVERSE
+
+class demo
+{
+    public static void main(String args[])
+    {
+        StringBuffer sb= new StringBuffer("saveetha engineering college");
+        System.out.println(sb.reverse());
+    }
+}
+
+INSERT()
+
+class demo
+{
+    public static void main(String args[])
+    {
+        StringBuffer sb= new StringBuffer("saveetha engineering college");
+        System.out.println(sb.insert(28,"first"));
+    }
+}
+
+
+
+
+
+
